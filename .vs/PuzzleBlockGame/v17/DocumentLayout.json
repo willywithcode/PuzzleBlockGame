@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Game\\PuzzleBlockGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{589086C9-CCC6-FEAE-A305-AC2625767330}|Assembly-CSharp.csproj|d:\\game\\puzzleblockgame\\assets\\_game\\_scripts\\scriptableobject\\shapedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{589086C9-CCC6-FEAE-A305-AC2625767330}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\_scripts\\scriptableobject\\shapedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDC9A60-DC23-D6C2-0220-42ACC70CCF64}|Assembly-CSharp-Editor.csproj|D:\\Game\\PuzzleBlockGame\\assets\\_game\\_scripts\\editor\\datadrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDC9A60-DC23-D6C2-0220-42ACC70CCF64}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\_game\\_scripts\\editor\\datadrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{589086C9-CCC6-FEAE-A305-AC2625767330}|Assembly-CSharp.csproj|D:\\Game\\PuzzleBlockGame\\assets\\_game\\_scripts\\matrixspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{589086C9-CCC6-FEAE-A305-AC2625767330}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\_scripts\\matrixspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataDrawer.cs",
+              "DocumentMoniker": "D:\\Game\\PuzzleBlockGame\\Assets\\_Game\\_Scripts\\Editor\\DataDrawer.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\_Scripts\\Editor\\DataDrawer.cs",
+              "ToolTip": "D:\\Game\\PuzzleBlockGame\\Assets\\_Game\\_Scripts\\Editor\\DataDrawer.cs",
+              "RelativeToolTip": "Assets\\_Game\\_Scripts\\Editor\\DataDrawer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T17:49:47.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShapeData.cs",
+              "DocumentMoniker": "D:\\Game\\PuzzleBlockGame\\Assets\\_Game\\_Scripts\\ScriptableObject\\ShapeData.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\_Scripts\\ScriptableObject\\ShapeData.cs",
+              "ToolTip": "D:\\Game\\PuzzleBlockGame\\Assets\\_Game\\_Scripts\\ScriptableObject\\ShapeData.cs",
+              "RelativeToolTip": "Assets\\_Game\\_Scripts\\ScriptableObject\\ShapeData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T17:41:57.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MatrixSpawner.cs",
+              "DocumentMoniker": "D:\\Game\\PuzzleBlockGame\\Assets\\_Game\\_Scripts\\MatrixSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\_Scripts\\MatrixSpawner.cs",
+              "ToolTip": "D:\\Game\\PuzzleBlockGame\\Assets\\_Game\\_Scripts\\MatrixSpawner.cs",
+              "RelativeToolTip": "Assets\\_Game\\_Scripts\\MatrixSpawner.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAWwCkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T11:50:26.402Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -12,42 +12,43 @@ public class MatrixSpawner : MonoBehaviour
     [SerializeField] private List<GameObject> squares;
     [SerializeField] private Vector2 spacing;
     [SerializeField] private Vector2 shape;
-#if UNITY_EDITOR
+
     public void SpawnSquare()
     {
-        foreach(var square in squares)
-        {
-            DestroyImmediate(square);
-        }
-        squares.Clear();
-        for(int i =0; i < 8; i ++)
-        {
-            for(int j = 0; j < 8; j ++)
-            {
-                var square = Instantiate(squarePrefab, this.transform);
-                squares.Add(square);
-                square.transform.position = new Vector3(firstPos.x + i * (shape.x + spacing.x) 
-                    , firstPos.y - j * (shape.y + spacing.y)
-                    , 0);
-            }
-        }
-    }
-    public void ClearSquare()
-    {
-        
         foreach (var square in squares)
         {
             DestroyImmediate(square);
         }
         squares.Clear();
+        for(int i = 0; i < 8; i ++)
+        {
+            for (int j = 0; j < 8; j ++)
+            {
+                var square = Instantiate(squarePrefab, this.transform);
+                squares.Add(square);
+                square.transform.position = new Vector3(firstPos.x + i * (shape.x + spacing.x),
+                                                        firstPos.y - j * (spacing.y + shape.y),
+                                                        0);
+            }
+        }
     }
+
+    public void ClearSquare()
+    {
+        foreach(var square in squares)
+        {
+            DestroyImmediate(square);
+
+        }
+        squares.Clear();
+    }
+
     public void FillShapeSize()
     {
-        SpriteRenderer renderer = squarePrefab.GetComponentInChildren<SpriteRenderer>();
-        shape.x = renderer.bounds.size.x;
-        shape.y = renderer.bounds.size.y;
+        SpriteRenderer ren = squarePrefab.GetComponentInChildren<SpriteRenderer>();
+        shape.x = ren.bounds.size.x;
+        shape.y = ren.bounds.size.y;
     }
-#endif
 }
 
 #if UNITY_EDITOR
@@ -64,13 +65,14 @@ public class MatrixSpawnerEditor : Editor
         {
             matrixSpawner.SpawnSquare();
         }
-        if(GUILayout.Button("Fill Shape"))
-        {
-            matrixSpawner.FillShapeSize();
-        }
-        if(GUILayout.Button("Clear"))
+        if( GUILayout.Button("Clear"))
         {
             matrixSpawner.ClearSquare();
+
+        }
+
+        if(GUILayout.Button("Fill") ){
+            matrixSpawner.FillShapeSize();
         }
     }
 }
